@@ -1,0 +1,6 @@
+services:
+  holoiso:
+    image: holoiso-docker
+    build: .
+    command: mkarchiso-holoiso -v /app
+    privileged: true
